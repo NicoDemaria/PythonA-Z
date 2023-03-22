@@ -1,0 +1,4 @@
+SELECT * FROM Clientes
+
+
+WHERE  (FechaNacimiento BETWEEN '19500101' AND '19800101' ) OR (FechaNacimiento BETWEEN '19900101' AND '20100101')
